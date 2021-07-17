@@ -1,0 +1,145 @@
+﻿html {
+    background-color: dimgrey;
+    background-image: url('Resources/default.jpg');
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: darkgrey;
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+    height: 900px;
+    border: 5px solid #000000;
+    padding: 10px;
+}
+h1 {
+    font-size: 70px;
+    font-family: Yu Gothic;
+    text-align: center;
+}
+.table {
+    
+}
+.form1 {
+    width: 100%;
+}
+
+.list {
+   
+}
+
+.grid2x2 {
+    min-height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 700px;
+    margin-left: 50px;
+   
+}
+
+    .grid2x2 > div {
+        display: flex;
+        flex-basis: auto;
+        justify-content: center;
+        flex-direction: column;
+      
+    }
+
+        .grid2x2 > div > div {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 5px solid #000000;
+    padding: 10px;
+}
+
+.Information {
+    width: 195px;
+    height: 400px;
+    
+    text-align: left;
+}
+.InfoDiv {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.Avatar {
+
+    height: 400px;
+    width: 500px;
+    background-size: 100% 100%;
+}
+
+
+.BonusDiv {
+    background-size: cover;
+    height: 400px;
+    width: 295px;
+    margin-top: 5px;
+}
+
+.Description {
+    background-color: lightgrey;
+    margin-top: 5px;
+    width: 400px;
+    height: 400px;
+}
+
+.InformationDiv {
+    width: 195px;
+    height: 400px;
+    background-color: lightblue;
+}
+
+.AvatarDiv {
+    background-color: lightblue;
+    height: 400px;
+    width: 500px;
+}
+
+.BonusDivDiv {
+    background-color: lightblue;
+    height: 400px;
+    width: 295px;
+    margin-top: 5px;
+}
+
+.DescriptionDiv {
+    background-color: lightblue;
+    margin-top: 5px;
+    width: 400px;
+    height: 400px;
+}
+
+.col1 {
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+}
+
+.col2 {
+    width: 100px;
+    height: 40px;
+    background-color: yellowgreen;
+}
+
+.col3 {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+}
