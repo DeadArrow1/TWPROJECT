@@ -47,9 +47,7 @@
             </div>
                   
             
-            <div class="Avatar">
-                
-              
+            <div class="Avatar">                              
                 <img class="AvatarChoosing" runat="server" id="avatarimage" width="500" height="400" src="Resources/0.jpg"/>
                     <div>
                 <asp:RadioButton id="Image0" Text="Image 0" Checked="True" GroupName="Images" runat="server" OnCheckedChanged="Image0_CheckedChanged" AutoPostBack="true" />
@@ -66,7 +64,7 @@
                 <div><asp:TextBox ID="Description" CssClass="Description" runat="server" style="resize:none" TextMode="MultiLine" Rows="10"></asp:TextBox></div></div>
       </div>
       <div class="flex-grid-thirds">
-        <asp:Button CssClass="col1" runat="server" OnClick="Change" Text="Change" />
+        <asp:Button CssClass="col1" runat="server" OnClick="Change" Text="Save" />
         
         <asp:Button CssClass="col2" runat="server" OnClick="Return" Text="Return" />
         <asp:Button runat="server" OnClick="Delete" CssClass="col3" Text="Delete"  />
