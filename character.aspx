@@ -16,31 +16,31 @@
                <table class="InfoDiv">
                   <tr>
                     <th>Name</th>
-                    <th><asp:TextBox ID="Name" width="80px" runat="server"></asp:TextBox></th>                    
+                    <th><asp:TextBox ID="Name" width="80px" MaxLength="255" runat="server"></asp:TextBox></th>                    
                   </tr>
                   <tr>
                     <td>Age</td>
-                    <td><asp:TextBox ID="Age"  width="80px"  runat="server"></asp:TextBox></td>                    
+                    <td><asp:TextBox ID="Age"  width="80px" MaxLength="255"  runat="server"></asp:TextBox></td>                    
                   </tr>
                   <tr>
                     <td>Occupation</td>
-                    <td><asp:TextBox ID="Occupation"  width="80px"  runat="server"></asp:TextBox></td>                    
+                    <td><asp:TextBox ID="Occupation"  width="80px" MaxLength="255" runat="server"></asp:TextBox></td>                    
                   </tr>
                    <tr>
                     <td>Characteristics</td>
-                    <td><asp:TextBox ID="Characteristics"  width="80px"  runat="server"></asp:TextBox></td>                    
+                    <td><asp:TextBox ID="Characteristics"  width="80px" MaxLength="255" runat="server"></asp:TextBox></td>                    
                   </tr>
                    <tr>
                     <td>Despises</td>
-                    <td><asp:TextBox ID="Despises"  width="80px"  runat="server"></asp:TextBox></td>                    
+                    <td><asp:TextBox ID="Despises"  width="80px" MaxLength="255" runat="server"></asp:TextBox></td>                    
                   </tr>
                    <tr>
                     <td>Afinity</td>
-                    <td><asp:TextBox ID="Afinity"  width="80px"  runat="server"></asp:TextBox></td>                    
+                    <td><asp:TextBox ID="Afinity"  width="80px" MaxLength="255" runat="server"></asp:TextBox></td>                    
                   </tr>
                    <tr>
                     <td>Gear</td>
-                    <td><asp:TextBox ID="Gear"  width="80px"  runat="server"></asp:TextBox></td>               
+                    <td><asp:TextBox ID="Gear"  width="80px" MaxLength="255" runat="server"></asp:TextBox></td>               
                   </tr>
                 </table> 
 
